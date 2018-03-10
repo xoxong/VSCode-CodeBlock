@@ -1,0 +1,47 @@
+{
+	// Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	//自定义注释第一版=============================
+	//自定义注释第一版=============================
+	//自定义注释第一版=============================
+	//代码块介绍 不带参数
+	"notes_code": {
+		"prefix": "notes_code ncode",
+		"body":"//xb:codeBlockDescribe:$0",
+		"description": "不带参代码块介绍"
+	},
+	//代码块介绍 带参数
+	"notes_code_parameter": {
+		"prefix": "notes_code_data ncdata",
+		"body":"/**xb:\n   codeBlockDescribe:$1\n   data:$2  \n**/",
+		"description": "带参代码块介绍"
+	},
+	//跟随鼠标移动
+	"MouseMovement": {
+		"prefix": "$code_mousemovement $cmm 跟随鼠标移动",
+		"body":["//xb:跟随鼠标移动",
+			"//codeBlockDescribe:MommBox==Mouse movement box",
+			"var MommBox=document.getElementById(\"MommBox\")",
+			"document.getElementById(\"MommBox\").onmousedown=function(ev){",
+				"//codeBlockDescribe:兼容各个浏览器///IE等浏览器则可以直接使用event或者window.event得到事件本身",
+				　　"var oevent = ev || event;",
+				　　"var distanceX = oevent.clientX - MommBox.offsetLeft;",
+			　　　　"var distanceY = oevent.clientY - MommBox.offsetTop;",
+				"//codeBlockDescribe:事件会在鼠标指针移动时发生",
+				 "document.onmousemove = function(ev){",
+			　　　　　　"    var oevent = ev || event;",
+			　　　　　　"    MommBox.style.left = oevent.clientX - distanceX + \"px\";",
+			　　　　　　"    MommBox.style.top = oevent.clientY - distanceY + \"px\"; ",
+			　　　　"};",
+				"//codeBlockDescribe:事件会在鼠标按键被松开时发生。",
+			　　　　"document.onmouseup = function(){",
+			　　　　　　"   document.onmousemove = null;",
+			　　　　　　"   document.onmouseup = null;",
+			　　　　"};",
+			"}"],
+		"description": "跟随鼠标移动"
+	}
+}
