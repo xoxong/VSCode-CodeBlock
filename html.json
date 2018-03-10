@@ -1,0 +1,75 @@
+{
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// 注释部分==============================================
+	// 注释部分=============================================
+	// 注释部分=============================================
+	// 表单注释
+	"notes_form": {
+		"prefix": "notes_form nf",
+		"body": "<!--xb:\n   type:表单 form$1\n   describe:$0   \n-->",
+		"description": "注释：表单注释"
+	},
+	//模块注释 简化版 名字
+	"notes_modu_name": {
+		"prefix": "notes_modular_name nmn",
+		"body": "<!--xb: modularName:$1 -->",
+		"description": "#注释：模块注释 简化版 名字"
+	},
+	//模块注释 模块类型 模块介绍
+	"notes_modu": {
+		"prefix": "notes_modular nm",
+		"body": "<!--xb:\n   type:模块 $1\n   purpose:$2\n   describe:$0   \n-->",
+		"description": "#注释：模块注释 类型 功能 介绍"
+	},
+	//公司署名注释第一版
+	"notes_company": {
+		"prefix": "notes_company nc",
+		"body": "<!--xb:\n   company name:$1\n   author      :$2\n   time        :$3\n   remarks     :$0   \n-->",
+		"description": "#公司注释 署名 作者 时间  简介 备注"
+	},
+	//javascript css 版本注释
+	"notes_company2": {
+		"prefix": "notes_import nimport",
+		"body": "<!--xb:   type:$1  describe:$0   -->",
+		"description": "#版本注释 类型 介绍"
+	},
+	// 代码块 手机端头部声明=============================================
+	// 代码块 手机端头部声明=============================================
+	// 代码块 手机端头部声明=============================================
+	"code_meta_iphone": {
+		"prefix": "code_meta_iphone cmetai 手机头部声明",
+		"body": ["<!--xb:IE=edge告诉IE使用最新的引擎渲染网页，chrome=1则可以激活Chrome Frame -->",
+		"<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">",
+		"<!--在iPhone的浏览器中页面将以原始大小显示，并不允许缩放。  -->",
+		"<meta name=\"viewport\" content=\"width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;\">",
+		"<!--开启对web app程序的支持 删除默认的苹果工具栏和菜单栏，开启全屏显示-->",
+		"<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">",
+		"<!--在 web app 应用下状态条（屏幕顶部条）的颜色-->",
+		"<meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">",
+		"<!--忽略页面中的数字,邮箱,地址识别为电话号码-->",
+		"<meta name=\"format-detection\" content=\"telephone=no,email=no,adress=no\">",
+	],
+		"description": "#手机meta声明 类 "
+	},
+	// 代码块 html 常用标签模板=============================================
+	// 代码块 html 常用标签模板=============================================
+	// 代码块 html 常用标签模板=============================================
+	//常用a标签点击跳转
+	"code_a_windowOpen": {
+		"prefix": "code_a_window_open cawo a跳转",
+		"body": "<a onclick==\"window.open('$1')\">$0</a>",
+		"description": "#常用a标签点击跳转"
+	},
+	//表单常用按钮submit
+	"code_button_formsubmit": {
+		"prefix": "code_button_formsubmit formsubmit submit",
+		"body": ["<!-- modularName:表单提交按钮 -->",
+		"<button class=\"form_submit\" onclick=\"FunFormSubmit()\"></button>",
+		"<input type=\"button\" name=\"submit\" id=\"submit\" value=\"提交\" class=\"form_submit\"/>"],
+		"description": "#表单常用按钮submit"
+	},
+}
