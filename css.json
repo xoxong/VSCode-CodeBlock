@@ -18,15 +18,7 @@
 	"code_iphone_rem750px": {
 		"prefix": "code_iphone_rem750px cirem750 手机750",
 		"body":[
-			"@font-face {font-family:;src: url();}",
-			"a,button,input,select{outline:none;-webkit-appearance:none;appearance:none;-moz-appearance:none;}",
-			"*{margin:0;padding:0}",
-			"a{text-decoration:none}",
-			"a:link{text-decoration:none;}",
-			"a:visited{text-decoration:none;}",
-			"a:hover{text-decoration:none;}",
-			"a:active{text-decoration:none;}",
-			"ul li{list-style-type:none}@media all and (min-width: 320px){html{font-size:42.66667px !important}}@media all and (min-width: 360px){html{font-size:48px !important}}",
+            "@media all and (min-width: 320px){html{font-size:42.66667px !important}}@media all and (min-width: 360px){html{font-size:48px !important}}",
 			"@media all and (min-width: 375px){html{font-size:50px !important}}@media all and (min-width: 384px){html{font-size:51.2px !important}}",
 			"@media all and (min-width: 412px){html{font-size:54.93333px !important}}@media all and (min-width: 414px){html{font-size:55.2px !important}}",
 			"@media all and (min-width: 480px){html{font-size:64px !important}}@media all and (min-width: 550px){html{font-size:73.33333px !important}}",
@@ -47,15 +39,6 @@
 	"code_iphone_rem640px": {
 		"prefix": "code_iphone_rem640px cirem640 手机640",
 		"body":[
-			"@font-face {font-family:;src: url();}",
-			"a,button,input,select{outline:none;-webkit-appearance:none;appearance:none;-moz-appearance:none;}",
-			"*{margin:0;padding:0}",
-			"a{text-decoration:none}",
-			"a:link{text-decoration:none;}",
-			"a:visited{text-decoration:none;}",
-			"a:hover{text-decoration:none;}",
-			"a:active{text-decoration:none;}",
-			"ul li{list-style-type:none}",
 			"@media all and (min-width: 320px){html{font-size:50px !important}}",
 			"@media all and (min-width: 360px){html{font-size:56.25px !important}}@media all and (min-width: 375px){html{font-size:58.59375px !important}}",
 			"@media all and (min-width: 384px){html{font-size:60px !important}}@media all and (min-width: 412px){html{font-size:64.375px !important}}",
@@ -84,7 +67,7 @@
 		"body":[
 			"@font-face {font-family:;src: url();}",
 			"a,button,input,select{outline:none;-webkit-appearance:none;appearance:none;-moz-appearance:none;}",
-			"*{margin:0;padding:0}",
+			"*{margin:0;padding:0;font-family:'微软雅黑';}",
 			"a{text-decoration:none}",
 			"a:link{text-decoration:none;}",
 			"a:visited{text-decoration:none;}",
