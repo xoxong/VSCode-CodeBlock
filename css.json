@@ -93,4 +93,20 @@
         "body": "/*xb:\n   type:模块\n   purpose:\n   describe:   \n*/",
         "description": "注释：模块注释 类型 功能 介绍"
     },
+
+    //常用样式兼容模式=================
+    //常用样式兼容模式=================
+    //常用样式兼容模式=================
+    //过度效果 transition 兼容
+    "code_transition": {
+        "prefix": "code_transition ctransition",
+        "body": "transition: all 1s;-webkit-transition: all 1s;-o-transition: all 1s;-ms-transition: all 1s;-moz-transition: all 1s;",
+        "description": "过度效果 transition 兼容"
+    },
+    //变形属性 transform 放大缩小 兼容
+    "code_transform ": {
+        "prefix": "code_transform ctransform",
+        "body": "transform:scale(1.05,1.05);-webkit-transform:scale(1.05,1.05);-o-transform:scale(1.05,1.05);-ms-transform:scale(1.05,1.05);-moz-transform:scale(1.05,1.05);",
+        "description": "变形属性 transform 放大缩小 兼容"
+    },
 }

@@ -9,13 +9,13 @@
 	//自定义注释第一版=============================
 	//代码块介绍 不带参数
 	"notes_code": {
-		"prefix": "notes_code ncode",
+		"prefix": "notes_modular_name nmn",
 		"body":"//xb:codeBlockDescribe:$0",
 		"description": "不带参代码块介绍"
 	},
 	//代码块介绍 带参数
 	"notes_code_parameter": {
-		"prefix": "notes_code_data ncdata",
+		"prefix": "notes_modular nm",
 		"body":"/**xb:\n   codeBlockDescribe:$1\n   data:$2  \n**/",
 		"description": "带参代码块介绍"
 	},
