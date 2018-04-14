@@ -23,10 +23,10 @@ snippet | trigger | readme
 - - -
 snippet | trigger | readme
 -|-|-
-1.code_meta_iphone | code_meta_iphone ; cmetai ; 手机头部声明 | #手机meta声明 类
-2.code_a_windowOpen | code_a_window_open ; cawo ; a跳转 | #常用a标签点击跳转js
+1.code_meta_iphone | code_meta_iphone ; cmetai | #手机meta声明 类
+2.code_a_windowOpen | code_a_window_open ; cawo | #常用a标签点击跳转js
 3.code_button_formsubmit | code_button_formsubmit ; formsubmit ; submit | #表单常用按钮submit
-4.code_form | code_form ; cform ; 表单 | #常用基础表达配置
+4.code_form | code_form ; cform | #常用基础表达配置
 
 ### css
 
@@ -42,14 +42,14 @@ snippet | trigger | readme
 - - - 
 snippet | trigger | readme
 -|-|-
-1.code_iphone_rem750px | code_iphone_rem750px ; cirem750 ; 手机750 | #手机rem扩展自适应代码块750
-2.code_iphone_rem640px | code_iphone_rem640px ; cirem640 ; 手机640 | #手机rem扩展自适应代码块640
+1.code_iphone_rem750px | code_iphone_rem750px ; cirem750 | #手机rem扩展自适应代码块750
+2.code_iphone_rem640px | code_iphone_rem640px ; cirem640 | #手机rem扩展自适应代码块640
 
 > 头部预定义初始化样式
 - - - 
 snippet | trigger | readme
 -|-|-
-1.code_initialization | code_initialization ; cinitialization ; 初始化 | #头部预定义初始化样式
+1.code_initialization | code_initialization ; cinitialization | #头部预定义初始化样式
 
 > 代码注释
 - - - 
@@ -82,12 +82,12 @@ snippet | trigger | readme
 - - - 
 snippet | trigger | readme
 -|-|-
-1.$.RegExp_s | $regexp ; $re ; 正则表达式 | 常用正则表达式集锦
+1.$.RegExp_s | $regexp ; $re | #常用正则表达式集锦
 
 code | readme
 -|-
-1./^0?1[3\|4\|5\|8\|7][0-9]\d{8}$/ | 公司常用手机验证
-2./^1[3\|4\|5\|8\|7][0-9]\d{8}$/ | 手机验证
+1./^0?1[3\|4\|5\|8\|7][0-9]\d{8}$/ | #公司常用手机验证
+2./^1[3\|4\|5\|8\|7][0-9]\d{8}$/ | #手机验证
 
 
 
