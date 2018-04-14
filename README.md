@@ -5,6 +5,7 @@ vs-code-codeBlock
 
 
 # 方法指令大全(直接在文件内输入指令即可 trigger为指令)
+##### (不支持中文指令，只是参考)
 
 ### html
 
@@ -25,14 +26,17 @@ snippet | trigger | readme
 1.code_meta_iphone | code_meta_iphone ; cmetai ; 手机头部声明 | #手机meta声明 类
 2.code_a_windowOpen | code_a_window_open ; cawo ; a跳转 | #常用a标签点击跳转js
 3.code_button_formsubmit | code_button_formsubmit ; formsubmit ; submit | #表单常用按钮submit
+4.code_form | code_form ; cform ; 表单 | #常用基础表达配置
 
 ### css
 
-> 自定义css属性
+> css兼容样式
 - - - 
 snippet | trigger | readme
 -|-|-
 1.-IE-filter- | iefilter ; filter | #IE透明度兼容css
+2.code_transition | code_transition ; ctransition | #过度效果 transition 兼容
+3.code_transform | code_transform ; ctransform | #变形属性 transform 放大缩小 兼容
  
 > 手机rem扩展自适应代码块
 - - - 
@@ -47,27 +51,32 @@ snippet | trigger | readme
 -|-|-
 1.code_initialization | code_initialization ; cinitialization ; 初始化 | #头部预定义初始化样式
 
+> 代码注释
+- - - 
+snippet | trigger | readme
+-|-|-
+1.notes_modu_name | notes_modular_name ; nmn| #注释：模块注释 简化版 名字
+2.notes_modu | notes_modular ; nm| #注释：模块注释 类型 功能 介绍
+
 ### javascript
 
 > 注释部分
 - - - 
 snippet | trigger | readme
 -|-|-
-1.notes_code不带参 | notes_code ; ncode | #不带参代码块介绍
-2.notes_code_带参 | notes_code_data ; ncdata | #带参代码块介绍
-3.MouseMovement | $code_mousemovement ; $cmm ; 跟随鼠标移动 | #带参代码块介绍
-
-### jQuery
+1.notes_code | notes_code ; nmn | #不带参代码块介绍
+2.notes_code_parameter | notes_modular ; nm | #带参代码块介绍
 
 > 常用代码模板
 - - - 
 snippet | trigger | readme
 -|-|-
-1.$.scrolltop | $code_scrolltop ; $scrolltop ; 跳转顶部 | #动画跳转到顶部
-2.$.fontCarousel | $code_fontCarousel ; $fontCarousel ; 字体轮播上下滚动 | #字体轮播上下滚动
-3.$.formPost | $code_formpost ; $formpost ; 表单提交 | #表单提交默认模板 获取 判断 提交 返回
-4.$.timedifference | $timedifference ; 时间差 | #div跟随鼠标移动
+1.$.scrolltop | $code_scrolltop ; $scrolltop  | #动画跳转到顶部
+2.$.fontCarousel | $code_fontCarousel ; $fontCarousel | #字体轮播上下滚动
+3.$.formPost | $code_formpost ; $formpost | #表单提交默认模板 获取 判断 提交 返回
+4.$.timedifference | $timedifference | #时间差改变数据
 5.$.dynamicInfo | $code_info ; $info | 动态添加客户信息
+6.$.MouseMovement | $code_mousemovement ; $cmm | #跟随鼠标移动
 
 > 正则表达式 常用下拉
 - - - 
