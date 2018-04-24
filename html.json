@@ -71,6 +71,7 @@
 		"   <input type=\"text\" id=\"\" class=\"\" name=\"name\" value=\"\" placeholder=\"您的姓名：\">",
 		"   <input type=\"number\" id=\"\" class=\"\" name=\"iphone\" value=\"\" placeholder=\"您的电话：\">",
 		"   <input type=\"text\" id=\"\" class=\"\" name=\"area\" value=\"\" placeholder=\"您的房屋面积：\">",
+		"   <input type=\"text\" id=\"\" class=\"\" name=\"cellname\" value=\"\" placeholder=\"您的小区：\">",
 	"</form>",
 	"<button class=\"xbm_subBtn\">立即报价</button>"],
 		"description": "#常用基础表达配置"

@@ -94,7 +94,7 @@
 			"   var name=$(\"input[name=name]\").val();",
 			"   var mobile=$(\"input[name=mobile]\").val();",
 			"   var mianji=$(\"input[name=eara]\").val();",
-			"   var styles=$(\"select[name=style]\").val();",
+			"   var cellname=$(\"select[name=cellname]\").val();",
 			"   //xb:codeBlockDescribe:判断是否为空",
 			"   if(name.length<1){",
 			"   alert(\"称呼不能为空\")",
