@@ -51,10 +51,27 @@
 
 	//正则表达式 常用下拉
 	"$.RegExp_s": {
-		"prefix": "$regexp $re",
+		"prefix": "$code_regexp $regexp $re",
 		"body":"var telMeg =${1|公司常用手机验证/^0?1[3\\|4\\|5\\|8\\|7][0-9]\\d{8}\\$/,手机验证/^1[3\\|4\\|5\\|8\\|7][0-9]\\d{8}\\$/|};",
 		"description": "正则表达式 常用下拉"
 	},
+	//IE兼容相关
+	"$.ie_version": {
+		"prefix": "$code_ieversion $ieversion $ie",
+		"body":"if ($.browser.msie && ($.browser.version <= \"9.0\")){}",
+		"description": "IE兼容判断当前版本号小于9.0"
+	},
+	//判断是手机还是pc
+	"$.PC/iPhone/Android": {
+		"prefix": "$code_pc $pciphone $pcandroid",
+		"body":["if(/Android|webOS|iPhone|iPod|BlackBerry/i.test,(navigator.userAgent)) {",
+			"      alert(\"手机端\");",
+		 "   } else {",
+			"      alert(\"PC\")",
+		 "   }"],
+		"description": "判断是手机还是pc"
+	},
+	
 	//动画跳转到顶部
 	"$.scrollTop": {
 		"prefix": "$code_scrolltop $scrolltop",
@@ -123,7 +140,7 @@
 	},
 	//定时计算时间差然后改变数字
 	"$.timedifference": {
-		"prefix": "$timedifference",
+		"prefix": "$code_timedifference $timedifference",
 		"body":[
 			"function m5_theNumberOf() {",
 			"   //codeBlockDescribe:每日增加的个数",
@@ -193,5 +210,7 @@
 			"}"
 		],
 		"description": "动态添加客户信息"
+
+
 	},
 }
