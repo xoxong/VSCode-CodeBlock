@@ -28,7 +28,7 @@
 
 ## html
 
-### > 注释部分
+#### > 注释部分
 - - -
 snippet | trigger | readme
 -|-|-
@@ -38,7 +38,7 @@ snippet | trigger | readme
 4.notes_company | notes_company ; nc | #公司注释 署名 作者 时间  简介 备注  
 5.notes_company | notes_import ; nimport | #javascript css 版本注释 类型 介绍  
 
-### > 代码块 
+#### > 代码块 
 - - -
 snippet | trigger | readme
 -|-|-
@@ -49,7 +49,7 @@ snippet | trigger | readme
 
 ## css
 
-### > css兼容样式
+#### > css兼容样式
 - - - 
 snippet | trigger | readme
 -|-|-
@@ -57,20 +57,20 @@ snippet | trigger | readme
 2.code_transition | code_transition ; ctransition | #过度效果 transition 兼容
 3.code_transform | code_transform ; ctransform | #变形属性 transform 放大缩小 兼容
  
-### > 手机rem扩展自适应代码块
+#### > 手机rem扩展自适应代码块
 - - - 
 snippet | trigger | readme
 -|-|-
 1.code_iphone_rem750px | code_iphone_rem750px ; cirem750 | #手机rem扩展自适应代码块750
 2.code_iphone_rem640px | code_iphone_rem640px ; cirem640 | #手机rem扩展自适应代码块640
 
-### > 头部预定义初始化样式
+#### > 头部预定义初始化样式
 - - - 
 snippet | trigger | readme
 -|-|-
 1.code_initialization | code_initialization ; cinitialization | #头部预定义初始化样式
 
-### > 代码注释
+#### > 代码注释
 - - - 
 snippet | trigger | readme
 -|-|-
@@ -79,14 +79,14 @@ snippet | trigger | readme
 
 ## javascript
 
-### > 注释部分
+#### > 注释部分
 - - - 
 snippet | trigger | readme
 -|-|-
 1.notes_code | notes_code ; nmn | #不带参代码块介绍
 2.notes_code_parameter | notes_modular ; nm | #带参代码块介绍
 
-### > 常用代码模板
+#### > 常用代码模板
 - - - 
 snippet | trigger | readme
 -|-|-
@@ -97,7 +97,7 @@ snippet | trigger | readme
 5.$.dynamicInfo | $code_info ; $info | #动态添加客户信息
 6.$.MouseMovement | $code_mousemovement ; $cmm | #跟随鼠标移动
 
-### > 正则表达式 常用下拉
+#### > 正则表达式 常用下拉
 - - - 
 snippet | trigger | readme
 -|-|-
