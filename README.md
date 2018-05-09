@@ -86,6 +86,13 @@ snippet | trigger | readme
 1.notes_code | notes_code ; nmn | #不带参代码块介绍
 2.notes_code_parameter | notes_modular ; nm | #带参代码块介绍
 
+#### > 兼容处理
+- - - 
+snippet | trigger | readme
+-|-|-
+1.$.ie_version | $code_ieversion ; $ieversion ; $ie | #IE兼容相关
+2.$.PC/iPhone/Android | $code_pc ; $pciphone ; $pcandroid | #判断是手机还是pc
+
 #### > 常用代码模板
 - - - 
 snippet | trigger | readme
