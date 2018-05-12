@@ -68,10 +68,10 @@
 	"code_form": {
 		"prefix": "code_form cform 表单",
 		"body": ["<form>",
-		"   <input type=\"text\" id=\"\" class=\"\" name=\"name\" value=\"\" placeholder=\"您的姓名：\">",
-		"   <input type=\"number\" id=\"\" class=\"\" name=\"mobile\" value=\"\" placeholder=\"您的电话：\">",
-		"   <input type=\"text\" id=\"\" class=\"\" name=\"area\" value=\"\" placeholder=\"您的房屋面积：\">",
-		"   <input type=\"text\" id=\"\" class=\"\" name=\"cellname\" value=\"\" placeholder=\"您的小区：\">",
+		"   <input type=\"text\" id=\"\" class=\"xb_inp1\" name=\"name\" value=\"\" placeholder=\"您的姓名：\">",
+		"   <input type=\"number\" id=\"\" class=\"xb_inp2\" name=\"mobile\" value=\"\" placeholder=\"您的电话：\">",
+		"   <input type=\"number\" id=\"\" class=\"xb_inp3\" name=\"eara\" value=\"\" placeholder=\"您的房屋面积：\">",
+		"   <input type=\"text\" id=\"\" class=\"xb_inp4\" name=\"cellname\" value=\"\" placeholder=\"您的小区：\">",
 	"</form>",
 	"<button class=\"xbm_subBtn\" onclick=\"FunFormSubmit()\">立即报价</button>"],
 		"description": "#常用基础表达配置"

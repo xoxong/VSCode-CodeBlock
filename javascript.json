@@ -75,7 +75,9 @@
 	//动画跳转到顶部
 	"$.scrollTop": {
 		"prefix": "$code_scrolltop $scrolltop",
-		"body":"$(\"${1:body,html\").animate({scrollTop:$(\"$0\").offset().top},500)",
+		"body":["$(\".xb_a1\").click(function(){",
+			"   $(\"${1:body,html\").animate({scrollTop:$(\"$0\").offset().top},500)",
+			" })"],
 		"description": "动画跳转到顶部"
 	},
 	//字体轮播上下滚动
@@ -87,13 +89,14 @@
 				"   //codeBlockDescribe:添加动画效果",
 				"   //codeBlockDescribe:动态移动",
 				"   //类名为ul",
-				"   $(\"$1\").animate({",
-				"      \"margin-top\": \"-$2px\"",
+				"   var names=\"\";",
+				"   var mTop=25;",
+				"   $(names).animate({",
+				"      \"margin-top\": \"-\"+mTop+\"px\"",
 				"   }, function() {",
-				"      $(\"$3 :eq()\").appendTo($(\"$4\"))",
-			
-				"      $(\"$5\").css({",
-				"         \"margin-top\": \"$6px\"",
+				"      $(names).find(\"li\").eq(0).appendTo($(names))",
+				"      $(names).css({",
+				"         \"margin-top\": \"0px\"",
 				"      })",
 				"   })",
 			"}"
@@ -153,6 +156,7 @@
 			"   var m5_Hours=m5_newdate.getHours(); //当前小时",
 			"   var m5_newday = m5_newdate.getDate(); //当前天",
 			"   var m5_newMonth = m5_newdate.getMonth()+1; //当前月",
+			"   var m5_newYeas=m5_newdate.getFullYear();//当前年",
 			"   var m5_time_start = m5_newdate.getTime();",
 			"   //设定目标时间，然后计算当前时间到起始时间之间的时间差",
 			"   var m5_time_end = new Date(\"2018/1/13 10:00:00\").getTime(); ",
