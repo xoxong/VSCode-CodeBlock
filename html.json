@@ -72,6 +72,7 @@
 		"   <input type=\"number\" id=\"\" class=\"xb_inp2\" name=\"mobile\" value=\"\" placeholder=\"您的电话：\">",
 		"   <input type=\"number\" id=\"\" class=\"xb_inp3\" name=\"eara\" value=\"\" placeholder=\"您的房屋面积：\">",
 		"   <input type=\"text\" id=\"\" class=\"xb_inp4\" name=\"cellname\" value=\"\" placeholder=\"您的小区：\">",
+		"   <span>㎡</span>",
 	"</form>",
 	"<button class=\"xbm_subBtn\" onclick=\"FunFormSubmit()\">立即报价</button>"],
 		"description": "#常用基础表达配置"

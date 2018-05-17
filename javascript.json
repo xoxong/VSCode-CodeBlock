@@ -115,6 +115,7 @@
 			"   var mobile=$(\"input[name=mobile]\").val();",
 			"   var mianji=$(\"input[name=eara]\").val();",
 			"   var cellname=$(\"select[name=cellname]\").val();",
+			"   var txt=\"百度推广\";",
 			"   //xb:codeBlockDescribe:判断是否为空",
 			"   if(name.length<1){",
 			"   alert(\"称呼不能为空\")",
@@ -130,12 +131,13 @@
 			"   alert(\"手机号不能为空\");",
 			"   return false;",
 			"   }",
-			"   $.post(\"$1\",{name:name,$2},function (result) {",
+			"   $.post(\"/home/news/bprice\",{cityid:cityid,eara:eara,name:name,mobile:mobile,cellname:'',aparment:'',house:'',style:'',txt:txt,url:'',lyurl:''},function (result) {",
 			"   if(result.code == 200){",
 
-			"      }else{",
-			"      }",
-			
+			"   }else{",
+		    "      alert(result.msg) ",
+			"   }",
+			"      $('.xbm_6 form')[0].reset();",
 			"   })",
 		"}"
 		],
