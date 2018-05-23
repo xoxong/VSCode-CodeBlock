@@ -113,7 +113,7 @@
 			"   var city=$(\"select[name=diqu]\").val();",
 			"   var name=$(\"input[name=name]\").val();",
 			"   var mobile=$(\"input[name=mobile]\").val();",
-			"   var mianji=$(\"input[name=eara]\").val();",
+			"   var eara=$(\"input[name=eara]\").val();",
 			"   var cellname=$(\"select[name=cellname]\").val();",
 			"   var txt=\"百度推广\";",
 			"   //xb:codeBlockDescribe:判断是否为空",

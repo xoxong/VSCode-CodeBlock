@@ -2,17 +2,18 @@
 - [目录](#)
     - [vs-code-codeBlock](#vs-code-codeblock)
     - [html](#html)
-        - [> 注释部分](#)
-        - [> 代码块](#)
+            - [> 注释部分](#)
+            - [> 代码块](#)
     - [css](#css)
-        - [> css兼容样式](#css)
-        - [> 手机rem扩展自适应代码块](#rem)
-        - [> 头部预定义初始化样式](#)
-        - [> 代码注释](#)
+            - [> css兼容样式](#css)
+            - [> 手机rem扩展自适应代码块](#rem)
+            - [> 头部预定义初始化样式](#)
+            - [> 代码注释](#)
     - [javascript](#javascript)
-        - [> 注释部分](#)
-        - [> 常用代码模板](#)
-        - [> 正则表达式 常用下拉](#)
+            - [> 注释部分](#)
+            - [> 兼容处理](#)
+            - [> 常用代码模板](#)
+            - [> 正则表达式 常用下拉](#)
 
 
 ## vs-code-codeBlock
@@ -46,6 +47,7 @@ snippet | trigger | readme
 2.code_a_windowOpen | code_a_window_open ; cawo | #常用a标签点击跳转js
 3.code_button_formsubmit | code_button_formsubmit ; formsubmit ; submit | #表单常用按钮submit
 4.code_form | code_form ; cform | #常用基础表达配置
+5.code_pc_background | code_pc_background ; code_pcbackground ; cpcback | #常用PC 居中背景模板
 
 ## css
 
