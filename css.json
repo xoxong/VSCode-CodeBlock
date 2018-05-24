@@ -109,4 +109,30 @@
         "body": "transform:scale(1.05,1.05);-webkit-transform:scale(1.05,1.05);-o-transform:scale(1.05,1.05);-ms-transform:scale(1.05,1.05);-moz-transform:scale(1.05,1.05);",
         "description": "变形属性 transform 放大缩小 兼容"
     },
+    //变形属性 transform css 动画兼容模板
+    "code_transform_keyframes ": {
+        "prefix": "code_transform_keyframes ctkeyframes",
+        "body": [" @keyframes xb_button{",
+        "    0%{transform:scale(1,1);}",
+        "    50%{transform:scale(1.05,1.05);}",
+        "    100%{transform:scale(1,1);}",
+        "}",
+        "@-webkit-keyframes xb_button{",
+        "    0%{-webkit-transform:scale(1,1);}",
+        "    50%{-webkit-transform:scale(1.05,1.05);}",
+        "    100%{-webkit-transform:scale(1,1);}",
+        "}",
+        "@-moz-keyframes xb_button{",
+        "    0%{-moz-transform:scale(1,1);}",
+        "    50%{-moz-transform:scale(1.05,1.05);}",
+        "    100%{-moz-transform:scale(1,1);}",
+        "}",
+        "@-ms-keyframes xb_button{",
+        "    0%{-ms-transform:scale(1,1);}",
+        "    50%{-ms-transform:scale(1.05,1.05);}",
+        "    100%{-ms-transform:scale(1,1);}",
+        "}"],
+        "description": "transform动画keyframes兼容模板"
+    },
+
 }

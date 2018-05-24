@@ -34,7 +34,7 @@
 	//javascript css 版本注释
 	"notes_company2": {
 		"prefix": "notes_import nimport",
-		"body": "<!--xb:   type:$1  describe:$0   -->",
+		"body": "<!--xb:type:$1  describe:$0   -->",
 		"description": "#版本注释 类型 介绍"
 	},
 	// 代码块 手机端头部声明=============================================
@@ -84,5 +84,13 @@
 		"<button class=\"form_submit\" onclick=\"FunFormSubmit()\"></button>",
 		"<input type=\"button\" name=\"submit\" id=\"submit\" value=\"提交\" class=\"form_submit\"/>"],
 		"description": "#表单常用按钮submit"
+	},
+	//常用PC 居中背景模板
+	"code_pc_background": {
+		"prefix": "code_pc_background code_pcbackground cpcback",
+		"body": [" <div class=\"xbm_main\">",
+			"   <div class=\"xbm_1\" style=\"width: 100%;background: url(img/xb_img_01.jpg) no-repeat 50%; height: 600px;background-size: 1920px 600px\"></div>",
+		" </div>"],
+		"description": "#常用PC 居中背景模板"
 	},
 }
