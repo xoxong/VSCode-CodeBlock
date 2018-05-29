@@ -58,6 +58,41 @@
         ],
         "description": "手机rem扩展自适应代码块640"
     },
+    //手机750px 75基数
+    "code_iphone_rem750px_75": {
+        "prefix": "code_iphone_rem750px_75 cirem75075 手机75075",
+        "body": [
+            "@media all and (min-width: 320px) { html { font-size: 32px !important; } }",
+            "@media all and (min-width: 360px) { html { font-size: 36px !important; } }",
+            "@media all and (min-width: 375px) { html { font-size: 37.5px !important; } }",
+            "@media all and (min-width: 384px) { html { font-size: 38.4px !important; } }",
+            "@media all and (min-width: 412px) { html { font-size: 41.2px !important; } }",
+            "@media all and (min-width: 414px) { html { font-size: 41.4px !important; } }",
+            "@media all and (min-width: 480px) { html { font-size: 48px !important; } }",
+            "@media all and (min-width: 550px) { html { font-size: 55px !important; } }",
+            "@media all and (min-width: 600px) { html { font-size: 60px !important; } }",
+            "@media all and (min-width: 640px) { html { font-size: 64px !important; } }",
+            "@media all and (min-width: 700px) { html { font-size: 70px !important; } }",
+            "@media all and (min-width: 765px) { html { font-size: 76.5px !important; } }",
+            "@media all and (min-width: 768px) { html { font-size: 76.8px !important; } }",
+            "@media all and (min-width: 800px) { html { font-size: 80px !important; } }",
+            "@media all and (min-width: 850px) { html { font-size: 85px !important; } }",
+            "@media all and (min-width: 917px) { html { font-size: 91.7px !important; } }",
+            "@media all and (min-width: 1024px) { html { font-size: 102.4px !important; } }",
+            "@media all and (min-width: 1080px) { html { font-size: 108px !important; } }",
+            "@media all and (min-width: 1152px) { html { font-size: 115.2px !important; } }",
+            "@media all and (min-width: 1280px) { html { font-size: 128px !important; } }",
+            "/* @media all and (min-width: 1360px) { html { font-size: 136px !important; } }",
+            "@media all and (min-width: 1366px) { html { font-size: 136.6px !important; } }",
+            "@media all and (min-width: 1440px) { html { font-size: 144px !important; } }",
+            "@media all and (min-width: 1550px) { html { font-size: 155px !important; } }",
+            "@media all and (min-width: 1600px) { html { font-size: 160px !important; } }",
+            "@media all and (min-width: 1680px) { html { font-size: 168px !important; } }",
+            "@media all and (min-width: 1901px) { html { font-size: 190.1px !important; } }",
+            "@media all and (min-width: 1920px) { html { font-size: 192px !important; } } */",
+        ],
+        "description": "手机rem扩展自适应代码块750px 75rem基数"
+    },
 
     //头部预定义初始化样式=================
     //头部预定义初始化样式=================
