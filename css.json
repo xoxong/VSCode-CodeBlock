@@ -101,7 +101,7 @@
         "prefix": "code_initialization cinitialization 初始化",
         "body": [
             "@font-face {font-family:;src: url();}",
-            "a,button,input,select{outline:none;-webkit-appearance:none;appearance:none;-moz-appearance:none;border: 0px solid;cursor: pointer;}",
+            "a,button,input,select{outline:none;-webkit-appearance:none;appearance:none;-moz-appearance:none;-ms-appearance:none;border: 0px solid;cursor: pointer;}",
             "*{margin:0;padding:0;font-family:'微软雅黑';}",
             "a{text-decoration:none}",
             "a:link{text-decoration:none;}",
