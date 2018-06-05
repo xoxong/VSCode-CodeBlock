@@ -80,6 +80,13 @@
 			" })"],
 		"description": "动画跳转到顶部"
 	},
+	//数组元素删除
+	"$.arryRemove": {
+		"prefix": "$arryRemove $aRemove",
+		"body":["//xb:codeBlockDescribe:splice 添加删除  inArray 返回索引", 
+              "arr1.splice($.inArray(arr2),1);"],
+		"description": "数组元素删除(位置下标)"
+	},
 	//字体轮播上下滚动
 	"$.fontCarousel": {
 		"prefix": "$code_fontCarousel $fontCarousel",

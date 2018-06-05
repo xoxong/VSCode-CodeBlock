@@ -106,6 +106,7 @@ snippet | trigger | readme
 4.$.timedifference | $timedifference | #时间差改变数据
 5.$.dynamicInfo | $code_info ; $info | #动态添加客户信息
 6.$.MouseMovement | $code_mousemovement ; $cmm | #跟随鼠标移动
+7.$.arryRemove | $arryRemove ; $aRemove | #数组元素删除(位置下标)
 
 #### > 正则表达式 常用下拉
 - - - 
