@@ -1,21 +1,5 @@
 # 目录
-- [目录](#)
-        - [vs-code-codeBlock](#vs-code-codeblock)
-        - [html](#html)
-                        - [> 注释部分](#)
-                        - [> 代码块](#)
-        - [css](#css)
-                        - [> css兼容样式](#css)
-                        - [> 手机rem扩展自适应代码块](#rem)
-                        - [> 头部预定义初始化样式](#)
-                        - [> 代码注释](#)
-        - [javascript](#javascript)
-                        - [> 注释部分](#)
-                        - [> 兼容处理](#)
-                        - [> 常用代码模板](#)
-                        - [> 正则表达式 常用下拉](#)
-
-
+[toc]
 ## vs-code-codeBlock
 
 > 文件下载直接覆盖vs的代码块目录:C:\Users\Administrator\AppData\Roaming\Code\User\snippets
@@ -27,7 +11,7 @@
 > 
 > (不支持中文指令，只是参考)
 
-## html
+## html 
 
 #### > 注释部分
 - - -
