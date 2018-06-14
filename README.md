@@ -97,6 +97,7 @@ snippet | trigger | readme
 -|-|-
 1.$.ie_version | $code_ieversion ; $ieversion ; $ie | #IE兼容相关
 2.$.PC/iPhone/Android | $code_pc ; $pciphone ; $pcandroid | #判断是手机还是pc
+3.$.rem | $code_rem ; $rem | #js自动实时修改rem自适应
 
 ### > 常用代码模板
 - - - 

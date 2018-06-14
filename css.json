@@ -102,13 +102,14 @@
         "body": [
             "@font-face {font-family:;src: url();}",
             "a,button,input,select{outline:none;-webkit-appearance:none;appearance:none;-moz-appearance:none;-ms-appearance:none;border: 0px solid;cursor: pointer;}",
+            "select::-ms-expand { display: none; }",
             "*{margin:0;padding:0;font-family:'微软雅黑';}",
             "a{text-decoration:none}",
             "a:link{text-decoration:none;}",
             "a:visited{text-decoration:none;}",
             "a:hover{text-decoration:none;}",
             "a:active{text-decoration:none;}",
-            "ul li{list-style-type:none}"
+            "ul li{list-style-type:none;list-style: none;}"
         ],
         "description": "头部预定义初始化样式"
     },
@@ -125,7 +126,7 @@
     //模块注释 模块类型 模块介绍
     "notes_modu": {
         "prefix": "notes_modular nm",
-        "body": "/*xb:\n   type:模块\n   purpose:\n   describe:   \n*/",
+        "body": "/*xb:\n   type:模块\n   purpose:$1\n   describe:   \n*/",
         "description": "注释：模块注释 类型 功能 介绍"
     },
 
@@ -135,7 +136,7 @@
     //过度效果 transition 兼容
     "code_transition": {
         "prefix": "code_transition ctransition",
-        "body": "transition: all 1s;-webkit-transition: all 1s;-o-transition: all 1s;-ms-transition: all 1s;-moz-transition: all 1s;",
+        "body": "transition: all 0.5s;-webkit-transition: all 0.5s;-o-transition: all 0.5s;-ms-transition: all 0.5s;-moz-transition: all 0.5s;",
         "description": "过度效果 transition 兼容"
     },
     //变形属性 transform 放大缩小 兼容

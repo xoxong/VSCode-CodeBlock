@@ -55,6 +55,27 @@
 		"body":"var telMeg =${1|公司常用手机验证/^0?1[3\\|4\\|5\\|8\\|7][0-9]\\d{8}\\$/,手机验证/^1[3\\|4\\|5\\|8\\|7][0-9]\\d{8}\\$/|};",
 		"description": "正则表达式 常用下拉"
 	},
+	//js自动实时修改rem自适应 
+	"$.rem": {
+		"prefix": "$code_rem $rem",
+		"body":[
+		"(function (doc, win) {",
+		"   var docEl = doc.documentElement;",
+		"   var width = docEl.getBoundingClientRect().width;",
+		"   // if(width<=1280){",
+		"      var rem = width * 75 / 750;",
+		"      docEl.style.fontSize = rem + 'px'",
+		"   // }",
+		"      //xb:codeBlockDescribe:屏幕宽度发生改变 实时更新rem",
+		"   window.onresize = function(){",
+		"       var docEl = doc.documentElement;",
+		"       var width = docEl.getBoundingClientRect().width;",
+		"       var rem = width * 75 / 750;",
+		"       docEl.style.fontSize = rem + 'px'",
+		"   }",
+        "})(document, window);"],
+		"description": "js自动实时修改rem自适应 "
+	},
 	//IE兼容相关
 	"$.ie_version": {
 		"prefix": "$code_ieversion $ieversion $ie",
