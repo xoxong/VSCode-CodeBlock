@@ -59,6 +59,7 @@
 	"$.rem": {
 		"prefix": "$code_rem $rem",
 		"body":[
+		"//js rem自适应代码 自动加载",
 		"(function (doc, win) {",
 		"   var docEl = doc.documentElement;",
 		"   var width = docEl.getBoundingClientRect().width;",
