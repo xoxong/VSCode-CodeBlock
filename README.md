@@ -1,21 +1,21 @@
 # 目录
 <!-- TOC -->
 
-- [目录](#)
+- [目录](#目录)
     - [vs-code-codeBlock](#vs-code-codeblock)
     - [**HTML**](#html)
-        - [> 注释部分](#)
-        - [> 代码块](#)
+        - [> 注释部分](#-注释部分)
+        - [> 代码块](#-代码块)
     - [**CSS**](#css)
-        - [> css兼容样式](#css)
-        - [> 手机rem扩展自适应代码块](#rem)
-        - [> 头部预定义初始化样式](#)
-        - [> 代码注释](#)
+        - [> css兼容样式](#-css兼容样式)
+        - [> 手机rem扩展自适应代码块](#-手机rem扩展自适应代码块)
+        - [> 头部预定义初始化样式](#-头部预定义初始化样式)
+        - [> 代码注释](#-代码注释)
     - [**JAVASCRIPT**](#javascript)
-        - [> 注释部分](#)
-        - [> 兼容处理](#)
-        - [> 常用代码模板](#)
-        - [> 正则表达式 常用下拉](#)
+        - [> 注释部分](#-注释部分-1)
+        - [> 兼容处理](#-兼容处理)
+        - [> 常用代码模板](#-常用代码模板)
+        - [> 正则表达式 常用下拉](#-正则表达式-常用下拉)
 
 <!-- /TOC -->
 ## vs-code-codeBlock
@@ -98,6 +98,7 @@ snippet | trigger | readme
 1.$.ie_version | $code_ieversion ; $ieversion ; $ie | #IE兼容相关
 2.$.PC/iPhone/Android | $code_pc ; $pciphone ; $pcandroid | #判断是手机还是pc
 3.$.rem | $code_rem ; $rem | #js自动实时修改rem自适应
+3.$.ie_input_placeholder | $code_ie_input ; $code_inputie | #input placeholder ie兼容
 
 ### > 常用代码模板
 - - - 

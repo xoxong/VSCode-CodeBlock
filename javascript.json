@@ -83,6 +83,30 @@
 		"body":"if ($.browser.msie && ($.browser.version <= \"9.0\")){}",
 		"description": "IE兼容判断当前版本号小于9.0"
 	},
+	// input placeholder ie兼容
+	"$.ie_input_placeholder": {
+		"prefix": "$code_ie_input $code_inputie",
+		"body":[ 
+			"/**xb:",
+            "    codeBlockDescribe: input ie兼容",
+            "    data:",  
+            "**/",
+            "$(\".xbm_pubFormBox input\").focus(function(){",
+            "    if($(this).val()==$(this).attr(\"placeholder\"))",
+            "    {",
+            "        $(this).val(\"\");",
+            "    }",
+            "    else if($(this).val()==\"\"){",
+            "        $(this).val($(this).attr(\"placeholder\"));",
+            "    }",
+            "})",
+            "$(\".xbm_pubFormBox input\").blur(function(){",
+            "    if($(this).val()==\"\"){",
+            "        $(this).val($(this).attr(\"placeholder\"));",
+            "    }",
+            "})"],
+		"description": "input placeholder ie兼容"
+	},
 	//判断是手机还是pc
 	"$.PC/iPhone/Android": {
 		"prefix": "$code_pc $pciphone $pcandroid",
