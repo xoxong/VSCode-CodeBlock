@@ -59,6 +59,8 @@
 	"$.rem": {
 		"prefix": "$code_rem $rem",
 		"body":[
+		"//xb:codeBlockDescribe:屏幕宽度",
+    	"var xb_width1=document.documentElement.getBoundingClientRect().width;",
 		"//js rem自适应代码 自动加载",
 		"(function (doc, win) {",
 		"   var docEl = doc.documentElement;",
