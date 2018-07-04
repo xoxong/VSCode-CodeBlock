@@ -11,6 +11,7 @@
         - [> 手机rem扩展自适应代码块](#-手机rem扩展自适应代码块)
         - [> 头部预定义初始化样式](#-头部预定义初始化样式)
         - [> 代码注释](#-代码注释)
+        - [> 常用样式模板](#-常用样式模板)
     - [**JAVASCRIPT**](#javascript)
         - [> 注释部分](#-注释部分-1)
         - [> 兼容处理](#-兼容处理)
@@ -81,6 +82,12 @@ snippet | trigger | readme
 -|-|-
 1.notes_modu_name | notes_modular_name ; nmn| #注释：模块注释 简化版 名字
 2.notes_modu | notes_modular ; nm| #注释：模块注释 类型 功能 介绍
+
+### > 常用样式模板
+- - - 
+snippet | trigger | readme
+-|-|-
+1.code_whf | code_whf ; codewhf| #注释：默认宽度百分比，高度自适应
 
 ## **JAVASCRIPT**
 

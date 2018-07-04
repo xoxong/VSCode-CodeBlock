@@ -170,5 +170,14 @@
         "}"],
         "description": "transform动画keyframes兼容模板"
     },
+    //常用样式模板=================
+    //常用样式模板=================
+    //常用样式模板=================
+    //默认宽度百分比，高度自适应
+     "code_whf": {
+        "prefix": "code_whf codewhf",
+        "body": "width: 100%;height: auto;float: left;",
+        "description": "默认宽度百分比，高度自适应"
+    },
 
 }
